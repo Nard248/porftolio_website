@@ -9,27 +9,27 @@ import { fadeIn } from '../variants';
 // services data
 const services = [
   {
-    name: 'UI/UX Design',
+    name: 'Data Analysis',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
+      'Exploratory and Statistical Analysis with technologies like Python, R, PowerBI etc. Hyphotesis testings, A/B testings',
     link: 'Learn more',
   },
   {
     name: 'Development',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
+      'Front-end with React Framework. Back-end with Flask, Django, and starting with GoLang. APIs with Fast API and Rest Framework',
     link: 'Learn more',
   },
   {
-    name: 'Digital Marketing',
+    name: 'ML Engineering',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
+      'From standard learning types, to Deep Learning. Experienced with Hybrid Learning systems. With Python and C++',
     link: 'Learn more',
   },
   {
-    name: 'Product Branding',
+    name: 'Computer Vision',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
+      'Using ANN(Artificial Neural Networks) conducted some Computer Vision projects using Tensorflow, Pytorch, OpenCV.',
     link: 'Learn more',
   },
 ];
@@ -49,10 +49,9 @@ const Services = () => {
           >
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
             <h3 className='h3 max-w-[455px] mb-16'>
-              I'm a Freelance Front-end Developer with over 5 years of
-              experience.
+              I'm a Data Scientist with over 3 years of experience.
             </h3>
-            <button className='btn btn-sm'>See my work</button>
+            <button class='btn btn-sm'><a href='https://github.com/Nard248'>See my work</a></button>
           </motion.div>
           {/* services */}
           <motion.div

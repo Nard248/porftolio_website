@@ -2,7 +2,7 @@ import React from 'react';
 // images
 import Image from '../assets/Avatar_N.svg';
 // icons
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaYoutube, FaDribbble, FaLinkedin, FaMailBulk, FaFacebook } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -59,8 +59,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='mb-8 max-w-lg mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              numquam. Harum deleniti id sapiente.
+              Nothing is true; everything is permitted
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
@@ -69,7 +68,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
-              <button className='btn btn-lg'>Contact me</button>
+              <a href="https://www.linkedin.com/in/narek-meloyan-23b73622b">
+                    <button class="btn btn-lg">Contact me</button>
+              </a>
               <a href='#' className='text-gradient btn-link'>
                 My Portfolio
               </a>
@@ -82,14 +83,14 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
-              <a href='#'>
-                <FaYoutube />
+              <a href='https://www.linkedin.com/in/narek-meloyan-23b73622b'>
+                <FaLinkedin />
               </a>
-              <a href='#'>
+              <a href='https://www.github.com/Nard248'>
                 <FaGithub />
               </a>
-              <a href='#'>
-                <FaDribbble />
+              <a href='https://www.facebook.com/NarekMeloyan456/'>
+                <FaFacebook />
               </a>
             </motion.div>
           </div>

@@ -34,19 +34,19 @@ const About = () => {
           >
             <h2 className='h2 text-accent'>About me.</h2>
             <h3 className='h3 mb-4'>
-              I'm a Freelance Front-end Developer with over 5 years of
-              experience.
+              I'm a Middle Data Scientist 
+              with over 3 years of Experience with various technologies 
             </h3>
             <p className='mb-6'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
-              natus omnis inventore quas beatae illo nulla. Officiis magni omnis
-              molestias.
+            Being at school, I started my Career at <a style={{ color: '#5dba2f', fontWeight: 'bold' }} href='https://www.youtube.com/watch?v=CkPoCISnMfc'>Onex </a> 
+            and yet Never stopped to work and learn. 
+            Now I'm challenging new oportunities at <a style={{ color: '#00aabe', fontWeight: 'bold' }}>Digitain</a>
             </p>
             {/* stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={3} duration={0.8} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Years of <br />
@@ -55,8 +55,7 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={15} duration={3} /> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={80} duration={0.8} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Projects <br />
@@ -65,17 +64,18 @@ const About = () => {
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={12} duration={3} /> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={7} duration={0.8} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Satisfied <br />
-                  Clients
+                  Companies <br />
+                  And startups
                 </div>
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'>Contact me</button>
+              <a href="https://www.linkedin.com/in/narek-meloyan-23b73622b">
+                    <button class="btn btn-lg">Contact me</button>
+              </a>
               <a href='#' className='text-gradient btn-link'>
                 My Portfolio
               </a>

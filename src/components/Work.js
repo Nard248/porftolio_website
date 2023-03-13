@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 // img
-import Img1 from '../assets/portfolio-img1.png';
-import Img2 from '../assets/portfolio-img2.png';
-import Img3 from '../assets/portfolio-img3.png';
+import Img1 from '../assets/Report.png';
+import Img2 from '../assets/Segmentation.png';
+import Img3 from '../assets/ComputerVision.jpg';
 
 const Work = () => {
   return (
@@ -27,11 +27,11 @@ const Work = () => {
                 Work.
               </h2>
               <p className='max-w-sm mb-16'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat, hic! Harum quis, cum velit neque esse eos molestias
-                doloremque explicabo!
+                Some of My Latest projects with different technologies
               </p>
+              <a href='https://www.github.com/Nard248'>
               <button className='btn btn-sm'>View all projects</button>
+              </a>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -45,11 +45,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Real Life Analysis</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Sample Campaign Analysis</span>
               </div>
             </div>
           </motion.div>
@@ -72,11 +72,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Machine Learning</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Customer Segmentation</span>
               </div>
             </div>
             {/* image */}
@@ -91,11 +91,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Deep Learning</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Computer Vision Automation</span>
               </div>
             </div>
           </motion.div>
