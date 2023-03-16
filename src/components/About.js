@@ -74,7 +74,7 @@ const About = () => {
             </div>
             <div className='flex gap-x-8 items-center'>
               <a href="https://www.linkedin.com/in/narek-meloyan-23b73622b">
-                    <button class="btn btn-lg">Contact me</button>
+                    <button className="btn btn-lg">Contact me</button>
               </a>
               <a href='#' className='text-gradient btn-link'>
                 My Portfolio
