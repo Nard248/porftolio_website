@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/porftolio_website/static/css/main.8dde0fd4.css",
-    "main.js": "/porftolio_website/static/js/main.3021f05c.js",
+    "main.js": "/porftolio_website/static/js/main.b08209a2.js",
     "static/media/Avatar_N.svg": "/porftolio_website/static/media/Avatar_N.6ac67826e667cb063de8c74562765841.svg",
     "static/media/me.png": "/porftolio_website/static/media/me.adb68fd0c5d61cdb3dea.png",
     "static/media/site-bg.jpg": "/porftolio_website/static/media/site-bg.54724d703024833ef9c6.jpg",
@@ -12,10 +12,10 @@
     "static/media/Narek_1.svg": "/porftolio_website/static/media/Narek_1.db0f347a04bc1bce942465358d4607e7.svg",
     "index.html": "/porftolio_website/index.html",
     "main.8dde0fd4.css.map": "/porftolio_website/static/css/main.8dde0fd4.css.map",
-    "main.3021f05c.js.map": "/porftolio_website/static/js/main.3021f05c.js.map"
+    "main.b08209a2.js.map": "/porftolio_website/static/js/main.b08209a2.js.map"
   },
   "entrypoints": [
     "static/css/main.8dde0fd4.css",
-    "static/js/main.3021f05c.js"
+    "static/js/main.b08209a2.js"
   ]
 }
