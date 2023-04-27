@@ -12,11 +12,17 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_xnytt8l', 'template_hylsvoe', form.current, 'jR5mzEkAaeb1Nhr1b')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    .then((result) => {
+      console.log(result.text);
+      
+      // Wait for 3 seconds before resetting the form and navigating back to the main page
+      setTimeout(() => {
+        form.current.reset();
+        window.location.href = '/'; // Change this to the URL of your main page
+      }, 8000);
+    }, (error) => {
+      console.log(error.text);
+    });
   };
 
   return (
