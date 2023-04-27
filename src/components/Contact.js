@@ -10,19 +10,14 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_xnytt8l', 'template_hylsvoe', form.current, 'jR5mzEkAaeb1Nhr1b')
-    .then((result) => {
-      console.log(result.text);
-      
-      // Wait for 3 seconds before resetting the form and navigating back to the main page
-      setTimeout(() => {
-        form.current.reset();
-        window.location.href = '/'; // Change this to the URL of your main page
-      }, 8000);
-    }, (error) => {
-      console.log(error.text);
-    });
+  
+    emailjs.sendForm('service_xnytt8l', 'template_hylsvoe', form.current, 'ySlqQuOO03vsWcaN-')
+      .then((result) => {
+        console.log(result.text);
+      })
+      .catch((error) => {
+        console.log(error.text);
+      });
   };
 
   return (
@@ -62,7 +57,7 @@ const Contact = () => {
             />
             <input
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
-              type='text'
+              type='email'
               placeholder='Your email'
               name='user_email'
             />
@@ -71,7 +66,7 @@ const Contact = () => {
               placeholder='Your message'
               name='message'
             ></textarea>
-            <button className='btn btn-lg' onClick={() => form.current.submit()} type='submit'>Send message</button>
+            <button className='btn btn-lg' onClick={() => form.current.submit()} type='submit' value="Send">Send message</button>
           </motion.form>
         </div>
       </div>
